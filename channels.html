@@ -11,7 +11,7 @@
 		<script>
 			document.write("<ul>")
 			for (var i = 0; i < channels.length; i++) {
-				document.write("<li><a href='http://localhost:8080/?buttons=" + commaify (channels[i].channel) + "'>" + channels[i].name + "</a></li>")
+				document.write("<li data-filter='" + channels[i].language + "," + channels[i].category + "'><a href='http://localhost:8080/?buttons=" + commaify (channels[i].channel) + "'>" + channels[i].name + "</a></li>")
 			}
 			document.write("</ul>")
 
