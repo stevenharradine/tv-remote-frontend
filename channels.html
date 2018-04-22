@@ -14,11 +14,13 @@
 
 			document.write("<ul>")
 			for (var i = 0; i < channels.length; i++) {
-				document.write("<li data-filter='" + channels[i].language + "," + channels[i].category + "'><a href='http://localhost:8080/?buttons=" + commaify (channels[i].channel) + "'>" + channels[i].name + "</a></li>")
+				var channel = channels[i]
+
+				document.write("<li data-filter='" + channel.language + "," + channel.category + "'><a href='http://localhost:8080/?buttons=" + commaify (channel.channel) + "'>" + channel.name + "</a></li>")
 
 				// collect filter options as we are parsing the array
-				categories = arrayUnique(categories.concat(channels[i].category))
-				languages = arrayUnique(languages.concat(channels[i].language))
+				categories = arrayUnique(categories.concat(channel.category))
+				languages = arrayUnique(languages.concat(channel.language))
 			}
 			document.write("</ul>")
 
