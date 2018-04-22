@@ -9,9 +9,16 @@
 		<h1>Channels</h1>
 		<h2>TV Remote</h2>
 		<script>
+			var categories = []
+			var languages = []
+
 			document.write("<ul>")
 			for (var i = 0; i < channels.length; i++) {
 				document.write("<li data-filter='" + channels[i].language + "," + channels[i].category + "'><a href='http://localhost:8080/?buttons=" + commaify (channels[i].channel) + "'>" + channels[i].name + "</a></li>")
+
+				// collect filter options as we are parsing the array
+				categories = arrayUnique(categories.concat(channels[i].category))
+				languages = arrayUnique(languages.concat(channels[i].language))
 			}
 			document.write("</ul>")
 
@@ -24,6 +31,18 @@
 				}
 
 				return comma_channel_number_str
+			}
+
+			function arrayUnique(array) {
+			    var a = array.concat();
+			    for(var i=0; i<a.length; ++i) {
+			        for(var j=i+1; j<a.length; ++j) {
+			            if(a[i] === a[j])
+			                a.splice(j--, 1);
+			        }
+			    }
+
+			    return a;
 			}
 		</script>
 	</body>
