@@ -6,8 +6,13 @@
 		<script src="channels.js"></script>
 	</head>
 	<body>
-		<h1>Channels</h1>
-		<h2>TV Remote</h2>
+		<header>
+			<h1>Channels</h1>
+			<h2>TV Remote</h2>
+		</header>
+		<div id="filters">
+			<h3>Filters</h3>
+		</div>
 		<script>
 			var categories = []
 			var languages = []
@@ -23,6 +28,20 @@
 				languages = arrayUnique(languages.concat(channel.language))
 			}
 			document.write("</ul>")
+
+			document.getElementById("filters").innerHTML += "<h4>Categories</h4>"
+			for (var i = 0; i < categories.length; i++) {
+				var category = categories[i]
+
+				document.getElementById("filters").innerHTML += category + "</br>"
+			}
+
+			document.getElementById("filters").innerHTML += "<h4>Language</h4>"
+			for (var i = 0; i < languages.length; i++) {
+				var language = languages[i]
+
+				document.getElementById("filters").innerHTML += language + "</br>"
+			}
 
 			function commaify (channel_number) {
 				channel_number_str = channel_number.toString()

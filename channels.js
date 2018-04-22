@@ -3237,7 +3237,7 @@ var channels = [{
   "name": "RAI INTERNATIONAL",
   "channel": "701",
   "category": [],
-  "language": "English"
+  "language": "Italian"
 },{
   "name": "POLSKIE RADIO 1",
   "channel": "987",
@@ -3252,7 +3252,7 @@ var channels = [{
   "name": "TV POLONIA ",
   "channel": "711",
   "category": [],
-  "language": "English"
+  "language": "Polish"
 },{
   "name": "RTVI ",
   "channel": "722",
@@ -3297,7 +3297,7 @@ var channels = [{
   "name": "ATN PUNJABI",
   "channel": "704",
   "category": [],
-  "language": "English"
+  "language": "Punjabi"
 },{
   "name": "ATN TAMIL",
   "channel": "705",
@@ -3322,7 +3322,7 @@ var channels = [{
   "name": "PTC PUNJABI",
   "channel": "690",
   "category": [],
-  "language": "English"
+  "language": "Punjabi"
 },{
   "name": "TAMIL VISION",
   "channel": "707",
@@ -3332,6 +3332,6 @@ var channels = [{
   "name": "UNIVISION CANADA",
   "channel": "699",
   "category": [],
-  "language": "English"
+  "language": "Spanish"
 }
 ]
