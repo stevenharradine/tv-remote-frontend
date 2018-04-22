@@ -16,7 +16,14 @@
 			document.write("</ul>")
 
 			function commaify (channel_number) {
-				return channel_number
+				channel_number_str = channel_number.toString()
+				comma_channel_number_str = ""
+
+				for (var i = 0; i < channel_number_str.length; i++) {
+					comma_channel_number_str += channel_number_str.charAt(i) + (i < channel_number_str.length - 1 ? "," : "")
+				}
+
+				return comma_channel_number_str
 			}
 		</script>
 	</body>
