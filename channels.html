@@ -1,0 +1,23 @@
+<!doctype html5>
+<html>
+	<head>
+		<title>TV Remote</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="channels.js"></script>
+	</head>
+	<body>
+		<h1>Channels</h1>
+		<h2>TV Remote</h2>
+		<script>
+			document.write("<ul>")
+			for (var i = 0; i < channels.length; i++) {
+				document.write("<li><a href='http://localhost:8080/?buttons=" + commaify (channels[i].channel) + "'>" + channels[i].name + "</a></li>")
+			}
+			document.write("</ul>")
+
+			function commaify (channel_number) {
+				return channel_number
+			}
+		</script>
+	</body>
+</html>
