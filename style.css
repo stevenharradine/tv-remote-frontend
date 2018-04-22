@@ -26,3 +26,6 @@ body.Rock li[data-filter*="Rock"],
 body.News li[data-filter*="News"] {
 	display: block;
 }
+html.lock body {
+	background-color: red;
+}
