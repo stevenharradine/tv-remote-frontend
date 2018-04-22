@@ -8,3 +8,21 @@ div#filters {
 	float: left;
 	width: 150px;
 }
+a.filter-option {
+	display: block;
+}
+body.filtered li {
+	display: none;
+}
+body.English li[data-filter*="English"],
+body.Italian li[data-filter*="Italian"],
+body.Polish li[data-filter*="Polish"],
+body.Punjabi li[data-filter*="Punjabi"],
+body.Spanish li[data-filter*="Spanish"],
+body.Radio li[data-filter*="Radio"],
+body.Rock li[data-filter*="Rock"],
+body.SoftRock li[data-filter*="SoftRock"],
+body.Rock li[data-filter*="Rock"],
+body.News li[data-filter*="News"] {
+	display: block;
+}

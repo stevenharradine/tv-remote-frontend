@@ -686,12 +686,12 @@ var channels = [{
 },{
   "name": "CNN ",
   "channel": "500",
-  "category": [],
+  "category": ["News"],
   "language": "English"
 },{
   "name": "CNN HD",
   "channel": "1578",
-  "category": [],
+  "category": ["News"],
   "language": "English"
 },{
   "name": "COSMOPOLITAN TV ",
@@ -1696,7 +1696,7 @@ var channels = [{
 },{
   "name": "CNN INTERNATIONAL",
   "channel": "511",
-  "category": [],
+  "category": ["News"],
   "language": "English"
 },{
   "name": "COMEDY GOLD",
