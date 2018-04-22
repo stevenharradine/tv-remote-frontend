@@ -13,7 +13,8 @@ while IFS='' read -r line || [[ -n "$line" ]]; do
 	echo '  "name": "'$line'"',
 	read -r line
 	echo '  "channel": "'$line'"',
-	echo '  "category": ""'
+	echo '  "category": ""',
+	echo '  "language": "English"'
 	echo '},{'
 done < "$1"
 echo "]"
