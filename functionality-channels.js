@@ -33,6 +33,10 @@ function send(codes) {
 	}
 }
 
+function resetFilters () {
+	document.getElementsByTagName("body")[0].className=""
+}
+
 function generateCssFilters () {
 	var buffer = ""
 	for (i = 0; i < categories.length; i++) {
