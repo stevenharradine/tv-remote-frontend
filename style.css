@@ -34,7 +34,7 @@ body.Spanish li[data-filter*="Spanish"] {
 	display: block !important;
 }
 html.lock body {
-	background-color: red;
+	background: url('http://www.ottawacityrafting.com/media/img/static/scan-wristband.gif') no-repeat center center;
 }
 a {
 	color: blue;
