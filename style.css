@@ -8,24 +8,39 @@ div#filters {
 	float: left;
 	width: 150px;
 }
-a.filter-option {
-	display: block;
-}
-body.filtered li {
+body.filtered ul.channelList li {
 	display: none;
 }
+body.Radio li[data-filter*="Radio"],
+body.Rock li[data-filter*="Rock"],
+body.News li[data-filter*="News"],
+body.Music li[data-filter*="Music"],
+body.Science li[data-filter*="Science"],
+body.Education li[data-filter*="Education"],
+body.Talk li[data-filter*="Talk"],
+body.ScienceFiction li[data-filter*="ScienceFiction"],
+body.Sports li[data-filter*="Sports"],
+body.Comedy li[data-filter*="Comedy"],
+body.Shop li[data-filter*="Shop"],
+body.Life li[data-filter*="Life"],
+body.Kids li[data-filter*="Kids"],
+body.Movies li[data-filter*="Movies"],
 body.English li[data-filter*="English"],
+body.French li[data-filter*="French"],
 body.Italian li[data-filter*="Italian"],
 body.Polish li[data-filter*="Polish"],
 body.Punjabi li[data-filter*="Punjabi"],
-body.Spanish li[data-filter*="Spanish"],
-body.Radio li[data-filter*="Radio"],
-body.Rock li[data-filter*="Rock"],
-body.SoftRock li[data-filter*="SoftRock"],
-body.Rock li[data-filter*="Rock"],
-body.News li[data-filter*="News"] {
-	display: block;
+body.Spanish li[data-filter*="Spanish"] {
+	display: block !important;
 }
 html.lock body {
 	background-color: red;
+}
+a {
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+a:visited {
+	color: purple;
 }

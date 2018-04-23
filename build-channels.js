@@ -1,11 +1,11 @@
 var categories = []
 var languages = []
 
-document.write("<ul>")
+document.write("<ul class='channelList'>")
 for (var i = 0; i < channels.length; i++) {
 	var channel = channels[i]
 
-	document.write("<li data-filter='" + channel.language + "," + channel.category + "'><a onclick=send('" + commaify (channel.channel) + "')>" + channel.name + "</a></li>")
+	document.write("<li data-filter='" + channel.language + "," + arrayRemoveSpaces(channel.category) + "'><a onclick=send('" + commaify (channel.channel) + "')>" + channel.name + "</a></li>")
 
 	// collect filter options as we are parsing the array
 	categories = arrayUnique(categories.concat(channel.category))
@@ -18,11 +18,13 @@ drawFilter ("Language", languages)
 
 function drawFilter (name, arrayItems) {
 	document.getElementById("filters").innerHTML += "<h4>" + name + "</h4>"
+	document.getElementById("filters").innerHTML += "<ul>"
 	for (var i = 0; i < arrayItems.length; i++) {
 		var item = arrayItems[i]
 
-	document.getElementById("filters").innerHTML += "<a href='#' class='filter-option' onclick='javascript: toggleFilter (\"" + item + "\")'>" + item + "</a>"
+		document.getElementById("filters").innerHTML += "<li><a class='filter-option' onclick='javascript: toggleFilter (\"" + removeSpaces(item) + "\")'>" + item + "</a></li>"
 	}
+	document.getElementById("filters").innerHTML += "</ul>"
 }
 
 function commaify (channel_number) {
@@ -46,4 +48,18 @@ function arrayUnique(array) {
     }
 
     return a;
+}
+
+function arrayRemoveSpaces (inArray) {
+	var newArray = Array()
+
+	for (var i = 0; i < inArray.length; i++) {
+		newArray.push (removeSpaces(inArray[i]))
+	}
+
+	return newArray
+}
+
+function removeSpaces (str) {
+	return str.replace(/\s/g, '')
 }

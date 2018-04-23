@@ -32,3 +32,14 @@ function send(codes) {
 		xhttp.send();
 	}
 }
+
+function generateCssFilters () {
+	var buffer = ""
+	for (i = 0; i < categories.length; i++) {
+		buffer += 'body.' + categories[i] + ' li[data-filter*="' + categories[i] + '"],\n'
+	}
+	for (i = 0; i < languages.length; i++) {
+		buffer += 'body.' + languages[i] + ' li[data-filter*="' + languages[i] + '"],\n'
+	}
+	console.log (buffer)
+}

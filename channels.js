@@ -6,7 +6,7 @@ var channels = [{
 },{
   "name": "104.5 CHUM FM ",
   "channel": "990",
-  "category": ["Radio","Soft Rock"],
+  "category": ["Radio","Rock"],
   "language": "English"
 },{
   "name": "680 NEWS ",
@@ -96,42 +96,42 @@ var channels = [{
 },{
   "name": "CJAD AM",
   "channel": "953",
-  "category": [],
+  "category": ["Radio"],
   "language": "English"
 },{
   "name": "CJPX RADIO - FM 99.5 MTL",
   "channel": "974",
-  "category": [],
+  "category": ["Radio", "Music"],
   "language": "English"
 },{
   "name": "CKAC AM",
   "channel": "973",
-  "category": [],
+  "category": ["Radio"],
   "language": "English"
 },{
   "name": "CLASSICAL 96FM TORONTO",
   "channel": "963",
-  "category": [],
+  "category": ["Radio", "Music"],
   "language": "English"
 },{
   "name": "COUNTRY FM 105 ",
   "channel": "968",
-  "category": [],
+  "category": ["Radio", "Music"],
   "language": "English"
 },{
   "name": "COUNTRY MUSIC TELEVISION",
   "channel": "575",
-  "category": [],
+  "category": ["Music"],
   "language": "English"
 },{
   "name": "CP 24",
   "channel": "503",
-  "category": [],
+  "category": ["News"],
   "language": "English"
 },{
   "name": "CP 24 HD",
   "channel": "1566",
-  "category": [],
+  "category": ["News"],
   "language": "English"
 },{
   "name": "CTV NEWS CHANNEL",
@@ -151,12 +151,12 @@ var channels = [{
 },{
   "name": "DISCOVERY CHANNEL",
   "channel": "520",
-  "category": [],
+  "category": ["Science", "Education"],
   "language": "English"
 },{
   "name": "DISCOVERY CHANNEL HD",
   "channel": "1602",
-  "category": [],
+  "category": ["Science", "Education"],
   "language": "English"
 },{
   "name": "E!",
@@ -196,12 +196,12 @@ var channels = [{
 },{
   "name": "HISTORY",
   "channel": "522",
-  "category": [],
+  "category": ["Science", "Education"],
   "language": "English"
 },{
   "name": "HISTORY HD",
   "channel": "1605",
-  "category": [],
+  "category": ["Science", "Education"],
   "language": "English"
 },{
   "name": "HOPE TV* ",
@@ -212,7 +212,7 @@ var channels = [{
   "name": "ICI MUSIQUE - MONTREAL (CBFX FM)",
   "channel": "975",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "JOY TV VANCOUVER* ",
   "channel": "656",
@@ -226,32 +226,32 @@ var channels = [{
 },{
   "name": "KUOW PUBLIC RADIO",
   "channel": "966",
-  "category": [],
+  "category": ["Radio"],
   "language": "English"
 },{
   "name": "L’ASSEMBLÉE NATIONALE DU QUÉBEC",
   "channel": "148",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "MÉTÉO MÉDIA",
   "channel": "130",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "MTV",
   "channel": "581",
-  "category": [],
+  "category": ["Music"],
   "language": "English"
 },{
   "name": "MUCHMUSIC",
   "channel": "570",
-  "category": [],
+  "category": ["Music"],
   "language": "English"
 },{
   "name": "MUCHMUSIC HD",
   "channel": "1670",
-  "category": [],
+  "category": ["Music"],
   "language": "English"
 },{
   "name": "NBC - EAST (BOSTON)",
@@ -266,12 +266,12 @@ var channels = [{
 },{
   "name": "NEWSTALK 1010",
   "channel": "964",
-  "category": [],
+  "category": ["Radio","Talk"],
   "language": "English"
 },{
   "name": "NPR (NATIONAL PUBLIC RADIO)",
   "channel": "965",
-  "category": [],
+  "category": ["Radio","Talk"],
   "language": "English"
 },{
   "name": "OZ-FM - ST. JOHN’S",
@@ -311,7 +311,7 @@ var channels = [{
 },{
   "name": "Q107 - TORONTO",
   "channel": "954",
-  "category": [],
+  "category": ["Radio","Rock"],
   "language": "English"
 },{
   "name": "RFI",
@@ -321,17 +321,17 @@ var channels = [{
 },{
   "name": "SPACE",
   "channel": "627",
-  "category": [],
+  "category": ["Science Fiction"],
   "language": "English"
 },{
   "name": "SPACE HD",
   "channel": "1746",
-  "category": [],
+  "category": ["Science Fiction"],
   "language": "English"
 },{
   "name": "SPORTSNET RADIO FAN 590",
   "channel": "959",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "STINGRAY MUSIC STATIONS",
@@ -341,42 +341,42 @@ var channels = [{
 },{
   "name": "SPORTSNET EAST",
   "channel": "406",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "SPORTSNET EAST HD",
   "channel": "1406",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "SPORTSNET ONTARIO ",
   "channel": "405",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "SPORTSNET ONTARIO HD",
   "channel": "1405",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "SPORTSNET PACIFIC",
   "channel": "407",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "SPORTSNET PACIFIC HD",
   "channel": "1407",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "SPORTSNET WEST",
   "channel": "408",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "SPORTSNET WEST HD ",
   "channel": "1408",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "TELELATINO",
@@ -386,97 +386,97 @@ var channels = [{
 },{
   "name": "THE COMEDY NETWORK EAST",
   "channel": "625",
-  "category": [],
+  "category": ["Comedy"],
   "language": "English"
 },{
   "name": "THE COMEDY NETWORK WEST",
   "channel": "626",
-  "category": [],
+  "category": ["Comedy"],
   "language": "English"
 },{
   "name": "THE COMEDY NETWORK HD",
   "channel": "1740",
-  "category": [],
+  "category": ["Comedy"],
   "language": "English"
 },{
   "name": "THE SHOPPING CHANNEL",
   "channel": "660",
-  "category": [],
+  "category": ["Shop"],
   "language": "English"
 },{
   "name": "TLC",
   "channel": "521",
-  "category": [],
+  "category": ["Life"],
   "language": "English"
 },{
   "name": "TLC HD",
   "channel": "1603",
-  "category": [],
+  "category": ["Life"],
   "language": "English"
 },{
   "name": "TREEHOUSE ",
   "channel": "553",
-  "category": [],
+  "category": ["Kids"],
   "language": "English"
 },{
   "name": "TREEHOUSE HD",
   "channel": "1640",
-  "category": [],
+  "category": ["Kids"],
   "language": "English"
 },{
   "name": "TSN1",
   "channel": "400",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "TSN1 HD",
   "channel": "1400",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "TSN3",
   "channel": "402",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "TSN3 HD",
   "channel": "1402",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "TSN4",
   "channel": "403",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "TSN4 HD",
   "channel": "1403",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "TSN5",
   "channel": "404",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "TSN5 HD",
   "channel": "1404",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "TSN RADIO 1050",
   "channel": "995",
-  "category": [],
+  "category": ["Radio", "Sports"],
   "language": "English"
 },{
   "name": "TSN RADIO 1290 WINNIPEG",
   "channel": "984",
-  "category": [],
+  "category": ["Radio", "Sports"],
   "language": "English"
 },{
   "name": "TSN RADIO 990 MONTREAL",
   "channel": "985",
-  "category": [],
+  "category": ["Radio", "Sports"],
   "language": "English"
 },{
   "name": "TVA - CARLETON*",
@@ -716,27 +716,27 @@ var channels = [{
 },{
   "name": "DISCOVERY SCIENCE ",
   "channel": "523",
-  "category": [],
+  "category": ["Science", "Education"],
   "language": "English"
 },{
   "name": "DISCOVERY SCIENCE HD",
   "channel": "1606",
-  "category": [],
+  "category": ["Science", "Education"],
   "language": "English"
 },{
   "name": "DISNEY CHANNEL HD",
   "channel": "563",
-  "category": [],
+  "category": ["Kids"],
   "language": "English"
 },{
   "name": "DISNEY JUNIOR HD",
   "channel": "1651",
-  "category": [],
+  "category": ["Kids"],
   "language": "English"
 },{
   "name": "DISNEY XD HD",
   "channel": "1652",
-  "category": [],
+  "category": ["Kids"],
   "language": "English"
 },{
   "name": "DIY",
@@ -746,12 +746,12 @@ var channels = [{
 },{
   "name": "DOCUMENTARY CHANNEL",
   "channel": "336",
-  "category": [],
+  "category": ["Education"],
   "language": "English"
 },{
   "name": "DOCUMENTARY CHANNEL HD",
   "channel": "1310",
-  "category": [],
+  "category": ["Education"],
   "language": "English"
 },{
   "name": "FAMILY - EAST",
@@ -826,17 +826,17 @@ var channels = [{
 },{
   "name": "MTV 2",
   "channel": "577",
-  "category": [],
+  "category": ["Music"],
   "language": "English"
 },{
   "name": "NATIONAL GEOGRAPHIC",
   "channel": "524",
-  "category": [],
+  "category": ["Education"],
   "language": "English"
 },{
   "name": "NATIONAL GEOGRAPHIC HD",
   "channel": "1609",
-  "category": [],
+  "category": ["Education"],
   "language": "English"
 },{
   "name": "OLN",
@@ -861,7 +861,7 @@ var channels = [{
 },{
   "name": "RUSSIA TODAY ",
   "channel": "724",
-  "category": [],
+  "category": ["News"],
   "language": "English"
 },{
   "name": "SHOWCASE",
@@ -881,62 +881,62 @@ var channels = [{
 },{
   "name": "SPORTSNET 360",
   "channel": "410",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "SPORTSNET 360 HD",
   "channel": "1410",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "SPORTSNET FLAMES",
   "channel": "438",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "SPORTSNET FLAMES HD",
   "channel": "1438",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "SPORTSNET OILERS",
   "channel": "437",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "SPORTSNET OILERS HD",
   "channel": "1437",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "SPORTSNET ONE ",
   "channel": "418",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "SPORTSNET ONE HD",
   "channel": "1409",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "SPORTSNET VANCOUVER HOCKEY",
   "channel": "436",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "SPORTSNET VANCOUVER HOCKEY HD",
   "channel": "1436",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "TCM",
   "channel": "292",
-  "category": [],
+  "category": ["Movies"],
   "language": "English"
 },{
   "name": "TCM HD",
   "channel": "1283",
-  "category": [],
+  "category": ["Movies"],
   "language": "English"
 },{
   "name": "TELETOON - EAST",
@@ -956,22 +956,22 @@ var channels = [{
 },{
   "name": "THE GOLF CHANNEL ",
   "channel": "416",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "THE GOLF CHANNEL HD",
   "channel": "1428",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "TSN2",
   "channel": "401",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "TSN2 HD",
   "channel": "1401",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "WGN",
@@ -2781,7 +2781,7 @@ var channels = [{
 },{
   "name": "NFL RED ZONE HD ",
   "channel": "1500",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "NFL SUNDAY TICKET",
@@ -2806,12 +2806,12 @@ var channels = [{
 },{
   "name": "SPORTSNET WORLD",
   "channel": "420",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "SPORTSNET WORLD HD",
   "channel": "1414",
-  "category": [],
+  "category": ["Sports"],
   "language": "English"
 },{
   "name": "U.S. COLLEGE SPORTS",
@@ -2852,72 +2852,72 @@ var channels = [{
   "name": "DE VUES & VOIX ",
   "channel": "13",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "CANAL SAVOIR ",
   "channel": "152",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "CANAL VIE",
   "channel": "135",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "CANAL VIE HD",
   "channel": "1866",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "CANAL Z TÉLÉ",
   "channel": "131",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "CANAL Z TÉLÉ HD",
   "channel": "1858",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "CASA",
   "channel": "154",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "CASA HD",
   "channel": "1850",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "CINÉPOP",
   "channel": "185",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "CINÉPOP HD",
   "channel": "1895",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "ÉVASION",
   "channel": "134",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "ÉVASION HD",
   "channel": "1864",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "HISTORIA",
   "channel": "133",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "HISTORIA HD",
   "channel": "1862",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "ICI ARTV",
   "channel": "143",
@@ -2937,12 +2937,12 @@ var channels = [{
   "name": "INVESTIGATION HD (FRENCH) ",
   "channel": "1847",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "LA CHAÎNE DISNEY",
   "channel": "186",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "LCN",
   "channel": "127",
@@ -2962,107 +2962,107 @@ var channels = [{
   "name": "MUSIMAX",
   "channel": "142",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "MUSIQUEPLUS",
   "channel": "141",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "MUSIQUEPLUS HD",
   "channel": "1876",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "PRISE 2",
   "channel": "153",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "PRISE 2 HD",
   "channel": "1849",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "RDS ",
   "channel": "123",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "RDS HD",
   "channel": "1880",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "RDS INFO",
   "channel": "124",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "RDS2",
   "channel": "192",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "RDS2 HD",
   "channel": "1881",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "SÉRIES+ ",
   "channel": "132",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "SÉRIES+ HD",
   "channel": "1860",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "TÉLÉMAGINO ",
   "channel": "189",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "TÉLÉ-QUÉBEC",
   "channel": "138",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "TÉLÉ-QUÉBEC HD",
   "channel": "1805",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "TELETOON FRENCH ",
   "channel": "139",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "TFO",
   "channel": "137",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "TFO HD ",
   "channel": "1837",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "TVA SPORTS ",
   "channel": "193",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "TVA SPORTS HD",
   "channel": "1883",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "TVA SPORTS 2 HD",
   "channel": "1884",
   "category": [],
-  "language": "English"
+  "language": "French"
 },{
   "name": "VRAK TV",
   "channel": "140",
