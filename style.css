@@ -31,7 +31,7 @@ body.Italian li[data-filter*="Italian"],
 body.Polish li[data-filter*="Polish"],
 body.Punjabi li[data-filter*="Punjabi"],
 body.Spanish li[data-filter*="Spanish"] {
-	display: block !important;
+	display: list-item !important;
 }
 html.lock body {
 	background: url('http://www.ottawacityrafting.com/media/img/static/scan-wristband.gif') no-repeat center center;
