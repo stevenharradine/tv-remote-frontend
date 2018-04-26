@@ -1,8 +1,21 @@
 h1, h2 {
 	display: inline;
 }
-ul {
+ul.channelList {
 	margin-left: 150px;
+	padding-left: 0;
+}
+ul.channelList img {
+	max-width: 100px;
+	max-height: 100px;
+	display: block;
+}
+ul.channelList li {
+	width: 100px;
+	min-height: 200px;
+	padding-left: 20px;
+	list-style:none;
+	float: left;
 }
 div#filters {
 	float: left;

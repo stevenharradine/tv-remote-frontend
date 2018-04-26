@@ -5,7 +5,7 @@ document.write("<ul class='channelList'>")
 for (var i = 0; i < channels.length; i++) {
 	var channel = channels[i]
 
-	document.write("<li data-filter='" + channel.language + "," + arrayRemoveSpaces(channel.category) + "'><a onclick=send('" + commaify (channel.channel) + "')>" + channel.name + "</a></li>")
+	document.write("<li data-filter='" + channel.language + "," + arrayRemoveSpaces(channel.category) + "'><a onclick=send('" + commaify (channel.channel) + "')><img src='" + getIcon (channel.icon) + "' />" + channel.name + "</a></li>")
 
 	// collect filter options as we are parsing the array
 	categories = arrayUnique(categories.concat(channel.category))
@@ -15,6 +15,16 @@ document.write("</ul>")
 
 drawFilter ("Categories", categories)
 drawFilter ("Language", languages)
+
+function getIcon (icon) {
+	if (icon !== null) {
+		if (icon.indexOf("lookup:") === 0) {
+			return logos[icon.split(":")[1]]
+		} else {
+			return icon
+		}
+	}
+}
 
 function drawFilter (name, arrayItems) {
 	document.getElementById("filters").innerHTML += "<h4>" + name + "</h4>"
