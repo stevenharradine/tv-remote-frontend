@@ -24,14 +24,14 @@ var channels = [{
   "channel": "281",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:abc",
   "language": "English"
 },{
   "name": "ABC HD - EAST (BOSTON) ",
   "channel": "1201",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:abc",
   "language": "English"
 },{
   "name": "A&E ",
@@ -122,14 +122,14 @@ var channels = [{
   "channel": "282",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:cbs",
   "language": "English"
 },{
   "name": "CBS HD - EAST (BOSTON) ",
   "channel": "1202",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:cbs",
   "language": "English"
 },{
   "name": "CJAD AM",
@@ -213,14 +213,14 @@ var channels = [{
   "channel": "520",
   "category": ["Science", "Education"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:discovery",
   "language": "English"
 },{
   "name": "DISCOVERY CHANNEL HD",
   "channel": "1602",
   "category": ["Science", "Education"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:discovery",
   "language": "English"
 },{
   "name": "E!",
@@ -241,14 +241,14 @@ var channels = [{
   "channel": "283",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:fox",
   "language": "English"
 },{
   "name": "FOX HD - EAST (BOSTON)",
   "channel": "1203",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:fox",
   "language": "English"
 },{
   "name": "GAME TV",
@@ -276,14 +276,14 @@ var channels = [{
   "channel": "522",
   "category": ["Science", "Education"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:history",
   "language": "English"
 },{
   "name": "HISTORY HD",
   "channel": "1605",
   "category": ["Science", "Education"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:history",
   "language": "English"
 },{
   "name": "HOPE TV* ",
@@ -346,28 +346,28 @@ var channels = [{
   "channel": "570",
   "category": ["Music"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:much",
   "language": "English"
 },{
   "name": "MUCHMUSIC HD",
   "channel": "1670",
   "category": ["Music"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:much",
   "language": "English"
 },{
   "name": "NBC - EAST (BOSTON)",
   "channel": "280",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:nbc",
   "language": "English"
 },{
   "name": "NBC HD - EAST (BOSTON)",
   "channel": "1200",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:nbc",
   "language": "English"
 },{
   "name": "NEWSTALK 1010",
@@ -463,9 +463,9 @@ var channels = [{
 },{
   "name": "SPORTSNET RADIO FAN 590",
   "channel": "959",
-  "category": ["Sports"],
+  "category": ["Radio","Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:sportsnet",
   "language": "English"
 },{
   "name": "STINGRAY MUSIC STATIONS",
@@ -479,56 +479,56 @@ var channels = [{
   "channel": "406",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:sportsnet",
   "language": "English"
 },{
   "name": "SPORTSNET EAST HD",
   "channel": "1406",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:sportsnet",
   "language": "English"
 },{
   "name": "SPORTSNET ONTARIO ",
   "channel": "405",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:sportsnet",
   "language": "English"
 },{
   "name": "SPORTSNET ONTARIO HD",
   "channel": "1405",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:sportsnet",
   "language": "English"
 },{
   "name": "SPORTSNET PACIFIC",
   "channel": "407",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:sportsnet",
   "language": "English"
 },{
   "name": "SPORTSNET PACIFIC HD",
   "channel": "1407",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:sportsnet",
   "language": "English"
 },{
   "name": "SPORTSNET WEST",
   "channel": "408",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:sportsnet",
   "language": "English"
 },{
   "name": "SPORTSNET WEST HD ",
   "channel": "1408",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:sportsnet",
   "language": "English"
 },{
   "name": "TELELATINO",
@@ -598,77 +598,77 @@ var channels = [{
   "channel": "400",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:tsn",
   "language": "English"
 },{
   "name": "TSN1 HD",
   "channel": "1400",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:tsn",
   "language": "English"
 },{
   "name": "TSN3",
   "channel": "402",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:tsn",
   "language": "English"
 },{
   "name": "TSN3 HD",
   "channel": "1402",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:tsn",
   "language": "English"
 },{
   "name": "TSN4",
   "channel": "403",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:tsn",
   "language": "English"
 },{
   "name": "TSN4 HD",
   "channel": "1403",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:tsn",
   "language": "English"
 },{
   "name": "TSN5",
   "channel": "404",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:tsn",
   "language": "English"
 },{
   "name": "TSN5 HD",
   "channel": "1404",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:tsn",
   "language": "English"
 },{
   "name": "TSN RADIO 1050",
   "channel": "995",
   "category": ["Radio", "Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:tsn",
   "language": "English"
 },{
   "name": "TSN RADIO 1290 WINNIPEG",
   "channel": "984",
   "category": ["Radio", "Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:tsn",
   "language": "English"
 },{
   "name": "TSN RADIO 990 MONTREAL",
   "channel": "985",
   "category": ["Radio", "Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:tsn",
   "language": "English"
 },{
   "name": "TVA - CARLETON*",
@@ -864,14 +864,14 @@ var channels = [{
   "channel": "560",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:abc",
   "language": "English"
 },{
   "name": "ABC SPARK HD",
   "channel": "1650",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:abc",
   "language": "English"
 },{
   "name": "ACTION",
@@ -1004,14 +1004,14 @@ var channels = [{
   "channel": "523",
   "category": ["Science", "Education"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:discovery",
   "language": "English"
 },{
   "name": "DISCOVERY SCIENCE HD",
   "channel": "1606",
   "category": ["Science", "Education"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:discovery",
   "language": "English"
 },{
   "name": "DISNEY CHANNEL HD",
@@ -1235,70 +1235,70 @@ var channels = [{
   "channel": "410",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:sportsnet",
   "language": "English"
 },{
   "name": "SPORTSNET 360 HD",
   "channel": "1410",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:sportsnet",
   "language": "English"
 },{
   "name": "SPORTSNET FLAMES",
   "channel": "438",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:sportsnet",
   "language": "English"
 },{
   "name": "SPORTSNET FLAMES HD",
   "channel": "1438",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:sportsnet",
   "language": "English"
 },{
   "name": "SPORTSNET OILERS",
   "channel": "437",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:sportsnet",
   "language": "English"
 },{
   "name": "SPORTSNET OILERS HD",
   "channel": "1437",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:sportsnet",
   "language": "English"
 },{
   "name": "SPORTSNET ONE ",
   "channel": "418",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:sportsnet",
   "language": "English"
 },{
   "name": "SPORTSNET ONE HD",
   "channel": "1409",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:sportsnet",
   "language": "English"
 },{
   "name": "SPORTSNET VANCOUVER HOCKEY",
   "channel": "436",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:sportsnet",
   "language": "English"
 },{
   "name": "SPORTSNET VANCOUVER HOCKEY HD",
   "channel": "1436",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:sportsnet",
   "language": "English"
 },{
   "name": "TCM",
@@ -1319,21 +1319,21 @@ var channels = [{
   "channel": "554",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:teletoon",
   "language": "English"
 },{
   "name": "TELETOON - EAST HD",
   "channel": "1653",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:teletoon",
   "language": "English"
 },{
   "name": "TELETOON - WEST",
   "channel": "555",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:teletoon",
   "language": "English"
 },{
   "name": "THE GOLF CHANNEL ",
@@ -1354,14 +1354,14 @@ var channels = [{
   "channel": "401",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:tsn",
   "language": "English"
 },{
   "name": "TSN2 HD",
   "channel": "1401",
   "category": ["Sports"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:tsn",
   "language": "English"
 },{
   "name": "WGN",
@@ -1578,119 +1578,119 @@ var channels = [{
   "channel": "246",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - CALGARY HD* ",
   "channel": "1133",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - EDMONTON*",
   "channel": "241",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - KAMLOOPS*",
   "channel": "259",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - KAMLOOPS HD*",
   "channel": "1159",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - MEDICINE HAT (CHAT) ",
   "channel": "248",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - MONTREAL*",
   "channel": "207",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - MONTREAL HD* ",
   "channel": "1033",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - PRINCE GEORGE*",
   "channel": "260",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - PRINCE GEORGE HD*",
   "channel": "1160",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - SASKATCHEWAN*",
   "channel": "266",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - TORONTO* ",
   "channel": "214",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - TORONTO HD* ",
   "channel": "1053",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - VANCOUVER*",
   "channel": "253",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - VANCOUVER HD*",
   "channel": "1153",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - WINNIPEG*",
   "channel": "228",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - WINNIPEG HD",
   "channel": "1093",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CPAC - ENGLISH",
@@ -1795,119 +1795,119 @@ var channels = [{
   "channel": "244",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - CALGARY HD* ",
   "channel": "899",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - EDMONTON* ",
   "channel": "240",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - HALIFAX* ",
   "channel": "204",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - KENORA*",
   "channel": "224",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - LETHBRIDGE*",
   "channel": "644",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - OKANAGAN*",
   "channel": "654",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - REGINA*",
   "channel": "594",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - SAINT JOHN*",
   "channel": "198",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - SASKATCHEWAN* ",
   "channel": "236",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - THUNDER BAY*",
   "channel": "222",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - THUNDER BAY HD*",
   "channel": "1065",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - TORONTO*",
   "channel": "211",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - TORONTO HD*",
   "channel": "1052",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - VANCOUVER*",
   "channel": "252",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - VANCOUVER HD*",
   "channel": "807",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - WINNIPEG* ",
   "channel": "227",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "HAY RIVER TV",
@@ -2397,7 +2397,7 @@ var channels = [{
   "channel": "1601",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:discovery",
   "language": "English"
 },{
   "name": "DTOUR",
@@ -2502,14 +2502,14 @@ var channels = [{
   "channel": "528",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:discovery",
   "language": "English"
 },{
   "name": "INVESTIGATION DISCOVERY HD (ID)",
   "channel": "1714",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:discovery",
   "language": "English"
 },{
   "name": "LEAFS TV ",
@@ -2726,28 +2726,28 @@ var channels = [{
   "channel": "281",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:abc",
   "language": "English"
 },{
   "name": "ABC HD - EAST (BOSTON) ",
   "channel": "1201",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:abc",
   "language": "English"
 },{
   "name": "ABC - WEST (SEATTLE) ",
   "channel": "288",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:abc",
   "language": "English"
 },{
   "name": "ABC HD - WEST (SEATTLE)",
   "channel": "1211",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:abc",
   "language": "English"
 },{
   "name": "CBC - CAL, HAL, MTL, OTT, TOR, VAN, WIN",
@@ -2810,119 +2810,119 @@ var channels = [{
   "channel": "282",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:cbs",
   "language": "English"
 },{
   "name": "CBS HD - EAST (BOSTON) ",
   "channel": "1202",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:cbs",
   "language": "English"
 },{
   "name": "CBS - WEST (SEATTLE)",
   "channel": "289",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:cbs",
   "language": "English"
 },{
   "name": "CBS HD - WEST (SEATTLE) ",
   "channel": "1212",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:cbs",
   "language": "English"
 },{
   "name": "CITYTV - CALGARY* ",
   "channel": "246",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - CALGARY HD* ",
   "channel": "1133",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - EDMONTON*",
   "channel": "241",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - MEDICINE HAT (CHAT) ",
   "channel": "248",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - MONTREAL*",
   "channel": "207",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - MONTREAL HD* ",
   "channel": "1033",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - SASKATCHEWAN*",
   "channel": "266",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - TORONTO* ",
   "channel": "214",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - TORONTO HD* ",
   "channel": "1053",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - VANCOUVER*",
   "channel": "253",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - VANCOUVER HD*",
   "channel": "1153",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - WINNIPEG*",
   "channel": "228",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CITYTV - WINNIPEG HD",
   "channel": "1093",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:citytv",
   "language": "English"
 },{
   "name": "CTV - KITCHENER* ",
@@ -3006,147 +3006,147 @@ var channels = [{
   "channel": "283",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:fox",
   "language": "English"
 },{
   "name": "FOX HD - EAST (BOSTON)",
   "channel": "1203",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:fox",
   "language": "English"
 },{
   "name": "FOX - WEST (SEATTLE)",
   "channel": "290",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:fox",
   "language": "English"
 },{
   "name": "FOX - WEST (SEATTLE) HD",
   "channel": "1213",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:fox",
   "language": "English"
 },{
   "name": "GLOBAL - CALGARY",
   "channel": "244",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - CALGARY HD ",
   "channel": "899",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - EDMONTON",
   "channel": "240",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - HALIFAX",
   "channel": "204",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - KENORA*",
   "channel": "224",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - LETHBRIDGE ",
   "channel": "644",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - OKANAGAN",
   "channel": "654",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - REGINA",
   "channel": "594",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - SAINT JOHN",
   "channel": "198",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - SASKATCHEWAN",
   "channel": "236",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - THUNDER BAY*",
   "channel": "222",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - THUNDER BAY HD",
   "channel": "1065",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - TORONTO*",
   "channel": "211",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - TORONTO HD*",
   "channel": "1052",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - VANCOUVER",
   "channel": "252",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - VANCOUVER HD",
   "channel": "807",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "GLOBAL - WINNIPEG",
   "channel": "227",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:globaltv",
   "language": "English"
 },{
   "name": "ICI RADIO-CANADA TÉLÉ (ICI) - EDMONTON",
@@ -3223,28 +3223,28 @@ var channels = [{
   "channel": "280",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:nbc",
   "language": "English"
 },{
   "name": "NBC HD - EAST (BOSTON)",
   "channel": "1200",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:nbc",
   "language": "English"
 },{
   "name": "NBC - WEST (SEATTLE)",
   "channel": "287",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:nbc",
   "language": "English"
 },{
   "name": "NBC HD - WEST (SEATTLE) ",
   "channel": "1210",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:nbc",
   "language": "English"
 },{
   "name": "OMNI - B.C.",
@@ -4248,11 +4248,11 @@ var channels = [{
   "icon": null,
   "language": "French"
 },{
-  "name": "TELETOON FRENCH ",
+  "name": "TELETOON FRENCH",
   "channel": "139",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:teletoon",
   "language": "French"
 },{
   "name": "TFO",
