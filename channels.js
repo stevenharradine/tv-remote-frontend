@@ -38,28 +38,28 @@ var channels = [{
   "channel": "615",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:ane",
   "language": "English"
 },{
   "name": "A&E HD",
   "channel": "1721",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:ane",
   "language": "English"
 },{
   "name": "BRAVO! ",
   "channel": "620",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:bravo",
   "language": "English"
 },{
   "name": "BRAVO! HD",
   "channel": "1734",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:bravo",
   "language": "English"
 },{
   "name": "CANAL M, IA RADIO DE VUES & VOIX",
@@ -262,14 +262,14 @@ var channels = [{
   "channel": "600",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:hgtv",
   "language": "English"
 },{
   "name": "HGTV HD ",
   "channel": "1703",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:hgtv",
   "language": "English"
 },{
   "name": "HISTORY",
@@ -570,28 +570,28 @@ var channels = [{
   "channel": "521",
   "category": ["Life"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:tlc",
   "language": "English"
 },{
   "name": "TLC HD",
   "channel": "1603",
   "category": ["Life"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:tlc",
   "language": "English"
 },{
   "name": "TREEHOUSE ",
   "channel": "553",
   "category": ["Kids"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:treehouse",
   "language": "English"
 },{
   "name": "TREEHOUSE HD",
   "channel": "1640",
   "category": ["Kids"],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:treehouse",
   "language": "English"
 },{
   "name": "TSN1",
@@ -822,14 +822,14 @@ var channels = [{
   "channel": "602",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:w",
   "language": "English"
 },{
   "name": "W NETWORK HD",
   "channel": "1705",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:w",
   "language": "English"
 },{
   "name": "WAHSA FM",
@@ -850,14 +850,14 @@ var channels = [{
   "channel": "551",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:ytv",
   "language": "English"
 },{
   "name": "YTV HD",
   "channel": "1646",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:ytv",
   "language": "English"
 },{
   "name": "ABC SPARK",
@@ -885,28 +885,28 @@ var channels = [{
   "channel": "293",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:amc",
   "language": "English"
 },{
   "name": "AMC HD",
   "channel": "1281",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:amc",
   "language": "English"
 },{
   "name": "ANIMAL PLANET",
   "channel": "525",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:animalplanet",
   "language": "English"
 },{
   "name": "ANIMAL PLANET HD ",
   "channel": "1612",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:animalplanet",
   "language": "English"
 },{
   "name": "BBC WORLD NEWS",
@@ -927,35 +927,35 @@ var channels = [{
   "channel": "504",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:bnn",
   "language": "English"
 },{
   "name": "BNN HD",
   "channel": "1568",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:bnn",
   "language": "English"
 },{
   "name": "CHRGD",
   "channel": "562",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:chrgd",
   "language": "English"
 },{
   "name": "CHRGD HD",
   "channel": "1648",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:chrgd",
   "language": "English"
 },{
   "name": "CNBC",
   "channel": "509",
   "category": [],
   "subscribed": true,
-  "icon": null,
+  "icon": "lookup:cnbc",
   "language": "English"
 },{
   "name": "CNN ",
