@@ -17,6 +17,19 @@ ul.channelList li {
 	list-style:none;
 	float: left;
 }
+ul.filters li a {
+	width: 100%;
+	display: inline-block;
+}
+ul.filters a:hover {
+	background-color: lightgrey;
+}
+ul.filters li.selected a {
+	background-color: darkgrey;
+}
+ul.filters li.selected a:hover {
+	background-color: grey;
+}
 div#filters {
 	float: left;
 	width: 150px;

@@ -27,14 +27,17 @@ function getIcon (icon) {
 }
 
 function drawFilter (name, arrayItems) {
-	document.getElementById("filters").innerHTML += "<h4>" + name + "</h4>"
-	document.getElementById("filters").innerHTML += "<ul>"
+	var buffer = ""
+	buffer += "<h4>" + name + "</h4>"
+	buffer += "<ul class='filters'>"
 	for (var i = 0; i < arrayItems.length; i++) {
 		var item = arrayItems[i]
 
-		document.getElementById("filters").innerHTML += "<li><a class='filter-option' onclick='javascript: toggleFilter (\"" + removeSpaces(item) + "\")'>" + item + "</a></li>"
+		buffer += "<li><a class='filter-option' onclick='javascript: toggleFilter (\"" + removeSpaces(item) + "\"); this.parentElement.classList.toggle(\"selected\");'>" + item + "</a></li>"
 	}
-	document.getElementById("filters").innerHTML += "</ul>"
+	buffer += "</ul>"
+
+	document.getElementById("filters").innerHTML += buffer
 }
 
 function commaify (channel_number) {
