@@ -1,3 +1,3 @@
 var config = {
-	"ip2ir_backend_server" = "http://localhost:8080"
+	"ip2ir_backend_server":"http://localhost:8080"
 }
