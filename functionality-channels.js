@@ -17,14 +17,19 @@ function areThereStillFilters () {
 	}
 }
 
-function send(codes) {
+function send(codes, element) {
 	if (document.getElementsByTagName("html")[0].classList.contains("lock")) {
 		console.log ("I cant do that sir (currently sending the previous command)")
 	} else {
 		var xhttp = new XMLHttpRequest();
+		element.classList.add("lock")
+		element.innerHTML = "<img src='http://www.ottawacityrafting.com/media/img/static/scan-wristband.gif' id='transmitter'>" + element.innerHTML
 		document.getElementsByTagName("html")[0].classList.add("lock")
 		xhttp.onreadystatechange = function() {
 			if (this.readyState == 4) {
+				element.classList.remove("lock")
+				document.getElementById("transmitter").outerHTML = ""
+				delete document.getElementById("transmitter")
 				document.getElementsByTagName("html")[0].classList.remove("lock")
 			}
 		};

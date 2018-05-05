@@ -5,7 +5,7 @@ document.write("<ul class='channelList'>")
 for (var i = 0; i < channels.length; i++) {
 	var channel = channels[i]
 
-	document.write("<li data-filter='" + channel.language + "," + arrayRemoveSpaces(channel.category) + "'><a onclick=send('" + commaify (channel.channel) + "')><img src='" + getIcon (channel.icon) + "' />" + channel.name + "</a></li>")
+	document.write("<li data-filter='" + channel.language + "," + arrayRemoveSpaces(channel.category) + "'><a onclick=\"send('" + commaify (channel.channel) + "', this)\"><img class='logo' src='" + getIcon (channel.icon) + "' />" + channel.name + "</a></li>")
 
 	// collect filter options as we are parsing the array
 	categories = arrayUnique(categories.concat(channel.category))

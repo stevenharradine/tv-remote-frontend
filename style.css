@@ -1,6 +1,9 @@
 h1, h2 {
 	display: inline;
 }
+ul.channelList a.lock img.logo {
+	display: none;
+}
 ul.channelList {
 	margin-left: 150px;
 	padding-left: 0;
@@ -58,9 +61,6 @@ body.Polish li[data-filter*="Polish"],
 body.Punjabi li[data-filter*="Punjabi"],
 body.Spanish li[data-filter*="Spanish"] {
 	display: list-item !important;
-}
-html.lock body {
-	background: url('http://www.ottawacityrafting.com/media/img/static/scan-wristband.gif') no-repeat center center;
 }
 a {
 	color: blue;
