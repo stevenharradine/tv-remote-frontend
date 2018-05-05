@@ -33,7 +33,7 @@ function send(codes, element) {
 				document.getElementsByTagName("html")[0].classList.remove("lock")
 			}
 		};
-		xhttp.open("GET", "http://localhost:8080/?buttons=" + codes, true);
+		xhttp.open("GET", config.ip2ir_backend_server + "/?buttons=" + codes, true);
 		xhttp.send();
 	}
 }
