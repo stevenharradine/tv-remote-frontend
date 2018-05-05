@@ -35,6 +35,13 @@ function send(codes) {
 
 function resetFilters () {
 	document.getElementsByTagName("body")[0].className=""
+
+	var anchors = document.getElementsByTagName("a")
+	for (i = 0; i < anchors.length; i++) {
+		if (anchors[i].classList.contains ("filter-option")) {
+			anchors[i].parentElement.classList.remove("selected")
+		}
+	}
 }
 
 function generateCssFilters () {
